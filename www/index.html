@@ -212,12 +212,15 @@
 
         //ButtonDがクリックされた時の処理
         function btnDClick(e) {
-            active = true;            
+            active = true;
         }
 
         //ButtonEがクリックされた時の処理
         function btnEClick(e) {
             active = true;
+            var audio = new Audio();
+            audio.src = "pin.wav";
+            audio.play();
         }
 
 
@@ -249,10 +252,9 @@
     <button id="btnB">Stop</button>
     <button id="btnC">Set</button>
     <button id="btnD">Restart</button>
-    <button id="btnE">10 seconds</button>
+    <button id="btnE">alarm</button>
     <input type="number" id="minute" value=0>
     <input type="number" id="second" value=15>
-
 </body>
 
 </html>
