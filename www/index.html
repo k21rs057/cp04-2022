@@ -43,6 +43,10 @@
             $('#btnD').click(function(e) {
                 btnDClick(e);
             });
+
+            $('#btnE').click(function(e) {
+                btnEClick(e);
+            });
             init();
         });
 
@@ -211,6 +215,11 @@
             active = true;            
         }
 
+        //ButtonEがクリックされた時の処理
+        function btnEClick(e) {
+            active = true;
+        }
+
 
         // 繰り返し実行する処理
         function timer() {
@@ -240,7 +249,7 @@
     <button id="btnB">Stop</button>
     <button id="btnC">Set</button>
     <button id="btnD">Restart</button>
-    <button id="btnE">180 minutes</button>
+    <button id="btnE">10 seconds</button>
     <input type="number" id="minute" value=0>
     <input type="number" id="second" value=15>
 
