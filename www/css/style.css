@@ -64,8 +64,8 @@
 
     #btnD {
         font-size: 20px;
-        position:absolute; top:440px; left:2%; width:28%; height:60px;
-        background-color: rgb(253, 144, 253); 
+        position:absolute; top:440px; left:2%; width:50%; height:60px;
+        background-color: rgb(255, 190, 255); 
     }
 
     button {
